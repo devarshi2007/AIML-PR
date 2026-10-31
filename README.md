@@ -363,3 +363,46 @@ loss, accuracy = slp_model.evaluate(X_test, y_test, verbose =0)
 print(f"\nSLP Test Loss: {loss:.4f}")
 print(f"SLP Test Accuracy: {accuracy: .4f}")
 ```
+```
+**Exp 1 – Python Libraries**
+**Procedure:** 1) Open Spyder and write the program in the editor, saved as exp1.py. 2) Run it and check the output in the console. 3) Fix any errors and run it again.
+**Conclusion:** We learned basic Python syntax and used NumPy, Pandas and Matplotlib for computation, data handling and visualization.
+
+**Exp 2 – Linear Regression**
+**Procedure:** 1) Load the Students dataset. 2) Separate features and target. 3) Build and train the model. 4) Test it on the test set. 5) Display R², RMSE and MAE.
+**Conclusion:** The linear regression model fits the data with an R² of **___**.
+
+**Exp 3 – Logistic Regression**
+**Procedure:** 1) Load the Iris dataset from Sklearn. 2) Separate features and target. 3) Build and train the classifier. 4) Test it on the test set. 5) Display accuracy and the confusion matrix.
+**Conclusion:** Logistic regression classified the Iris data with an accuracy of **___%**.
+
+**Exp 4 – Decision Tree**
+**Procedure:** 1) Load the Adult Income dataset. 2) Separate features and target. 3) Build and train the classifier. 4) Test it on the test set. 5) Display accuracy and the classification report.
+**Conclusion:** The decision tree reached an accuracy of **___%**. It is easy to interpret but can overfit.
+
+**Exp 5 – KNN**
+**Procedure:** 1) Load suv_data.csv. 2) Separate features and target. 3) Build and train the KNN classifier. 4) Test it and display accuracy and the classification report.
+**Conclusion:** KNN classified the data by nearest neighbors with an accuracy of **___%**.
+
+**Exp 6 – Random Forest (Bagging and Boosting)**
+**Procedure:** 1) Load the Adult Income dataset. 2) Separate features and target. 3) Build and train the Random Forest. 4) Test it on the test set. 5) Display accuracy and the classification report.
+**Conclusion:** Random Forest reached **___%** accuracy, and combining many trees reduced overfitting.
+
+**Exp 7 – SVM**
+**Procedure:** 1) Load Iris from sklearn.datasets. 2) Separate features and target. 3) Train an SVM with an RBF kernel. 4) Test it and display accuracy and the classification report.
+**Conclusion:** The SVM with an RBF kernel classified Iris well, with an accuracy of **___%**.
+
+**Exp 8 – K-Means Clustering**
+**Procedure:** 1) Import libraries and create a custom dataset. 2) Scale the features with StandardScaler and initialize random centroids. 3) Define the Euclidean distance function and the assign and update functions. 4) Predict the cluster centers and plot the clusters.
+**Conclusion:** K-Means grouped the unlabeled data into clusters around their centroids.
+
+**Exp 9 – PCA**
+**Procedure:** 1) Standardize the data. 2) Compute the covariance matrix. 3) Compute eigenvalues and eigenvectors. 4) Check the explained variance and keep the top components.
+**Conclusion:** PCA reduced the number of dimensions while keeping most of the variance.
+
+**Exp 10 – Single-Layer Perceptron**
+**Procedure:** 1) Generate 1,000 samples with 5 features. 2) Split 80/20 into train and test. 3) Scale with StandardScaler. 4) Build a Keras Sequential model with one Dense layer (1 unit, sigmoid). 5) Compile with adam and binary_crossentropy. 6) Train for 30 epochs with batch size 32. 7) Evaluate test loss and accuracy.
+**Conclusion:** The perceptron learned a linear decision boundary and reached a test accuracy of **___%**.
+
+Your files don't include the output values, so fill in the blanks from your own runs.
+```
